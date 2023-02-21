@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(237, 193, 218);
+    text-align: center;
+}
+
+
+
+
+h1{
+    text-decoration: underline dotted 4px;
+}
+
+h2{
+    text-decoration: underline dotted 3px;
+}
+
+#girlbaker {  
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.btn{
+    background-color: #ee559f;
+    min-width: 200px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    text-decoration: wavy;
+    
+}
+
+.btn:hover{
+    background-color: #aa1958;
+    pa
+}
