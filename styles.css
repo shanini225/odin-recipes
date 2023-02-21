@@ -1,21 +1,9 @@
 body{
     background-color: rgb(237, 193, 218);
-    text-align: center
+    text-align: center;
 }
 
- /* Text */
-
-h1{
-    text-decoration: underline dotted 4px;
-    font-size: 30px;
-    font-style: oblique;
-}
-
-h2{
-    text-decoration: underline dotted 3px;
-    font-style: oblique;
-}   
-
+/* Images */
 #girlbaker {  
     display: block;
     margin: auto;
@@ -26,8 +14,94 @@ h2{
     
 }
 
-/* Buttons */
+#lemonpie{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    border: 2px solid #aa1958;
+}
 
+#cchearts{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    border: 2px solid #aa1958;
+}
+
+#choccroiss{
+    display: block;
+    margin: auto;
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+    border: 2px solid #aa1958;
+}
+
+  
+ /* Text */
+h1{
+    text-decoration: underline dotted 4px;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+h2{
+    padding: 40px;
+    text-decoration: underline dotted 3px;
+    font-style: oblique;
+}   
+
+h3{
+    text-decoration: underline solid 1px;
+    font-size: 30px;
+}
+
+p{
+    padding: 10px;
+}
+
+.intro{
+    padding: 1%;
+    font-size:25px;
+}
+
+.ingredients{
+    font-size: 25px;
+}
+
+.cooking{
+    padding: 1%;
+    font-size: 25px;
+}
+
+
+/*ingredients*/
+ul{
+    padding-left: 0;
+}
+ul li{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+
+/* Buttons */
+.home-btn{
+    background-color: #ee559f;
+    min-width: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 2px solid #aa1958;
+    text-decoration: wavy;
+    font-style: oblique;
+    font-size: 20px;
+
+}
 .btn{
     background-color: #ee559f;
     min-width: 200px;
@@ -37,7 +111,7 @@ h2{
     border-radius: 4px;
     border: 2px solid #aa1958;
     text-decoration: wavy;
-    font-style: oblique;
+    font-size: 20px;
     
 }
 
@@ -46,26 +120,34 @@ h2{
     border: 2px solid #ee559f;
 }
 
-.bottom-line{
-    
-    border-color: #000;
-    margin-top: 20px;
-}
 
 a{
-    color: #000;
+    color: rgb(66, 8, 31);
 }
 
 a:hover{
     color: #aa1958
 }
 
+
+
 /*footer*/
+.bottom-line{
+    border-color: #000;
+    margin-top:50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 
 .first{
     font-style: italic;
+    font-size: 22px;
 }
 
 .gitlink{
     font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: aqua;
 }
