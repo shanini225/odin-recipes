@@ -1,12 +1,9 @@
 body{
     background-color: rgb(237, 193, 218);
-    text-align: center;
+    text-align: center
 }
 
-main{
-  
-
-}
+ /* Text */
 
 h1{
     text-decoration: underline dotted 4px;
@@ -28,6 +25,8 @@ h2{
     border: 2px solid #aa1958;
     
 }
+
+/* Buttons */
 
 .btn{
     background-color: #ee559f;
@@ -52,10 +51,21 @@ h2{
     border-color: #000;
     margin-top: 20px;
 }
+
 a{
     color: #000;
 }
 
 a:hover{
     color: #aa1958
+}
+
+/*footer*/
+
+.first{
+    font-style: italic;
+}
+
+.gitlink{
+    font-weight: bold;
 }
