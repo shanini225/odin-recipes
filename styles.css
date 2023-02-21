@@ -3,22 +3,29 @@ body{
     text-align: center;
 }
 
+main{
+  
 
-
+}
 
 h1{
     text-decoration: underline dotted 4px;
+    font-size: 30px;
+    font-style: oblique;
 }
 
 h2{
     text-decoration: underline dotted 3px;
-}
+    font-style: oblique;
+}   
 
 #girlbaker {  
     display: block;
     margin: auto;
     width: 200px;
     height: 200px;
+    border-radius: 5px;
+    border: 2px solid #aa1958;
     
 }
 
@@ -29,11 +36,26 @@ h2{
     padding: 10px;
     margin-top: 10px;
     border-radius: 4px;
+    border: 2px solid #aa1958;
     text-decoration: wavy;
+    font-style: oblique;
     
 }
 
 .btn:hover{
     background-color: #aa1958;
-    pa
+    border: 2px solid #ee559f;
+}
+
+.bottom-line{
+    
+    border-color: #000;
+    margin-top: 20px;
+}
+a{
+    color: #000;
+}
+
+a:hover{
+    color: #aa1958
 }
