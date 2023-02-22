@@ -7,8 +7,8 @@ body{
 #girlbaker {  
     display: block;
     margin: auto;
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     border-radius: 5px;
     border: 2px solid #aa1958;
     
@@ -17,8 +17,8 @@ body{
 #lemonpie{
     display: block;
     margin: auto;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 5px;
     border: 2px solid #aa1958;
 }
@@ -26,8 +26,8 @@ body{
 #cchearts{
     display: block;
     margin: auto;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 5px;
     border: 2px solid #aa1958;
 }
@@ -35,8 +35,8 @@ body{
 #choccroiss{
     display: block;
     margin: auto;
-    width: 450px;
-    height: 300px;
+    width: 550px;
+    height: 400px;
     border-radius: 5px;
     border: 2px solid #aa1958;
 }
@@ -52,6 +52,7 @@ h1{
 h2{
     padding: 40px;
     text-decoration: underline dotted 3px;
+    font-size: 40px;
     font-style: oblique;
 }   
 
@@ -62,15 +63,16 @@ h3{
 
 p{
     padding: 10px;
+    margin-top: 20px;
 }
 
 .intro{
     padding: 1%;
-    font-size:25px;
+    font-size:26px;
 }
 
 .ingredients{
-    font-size: 25px;
+    font-size: 26px;
 }
 
 .cooking{
@@ -78,14 +80,13 @@ p{
     font-size: 25px;
 }
 
-
 /*ingredients*/
-ul{
-    padding-left: 0;
-}
 ul li{
+    margin: 5px;
+    padding-top: 10px;
     list-style-type: square;
     list-style-position: inside;
+    text-align: center;
 }
 
 
@@ -99,8 +100,14 @@ ul li{
     border: 2px solid #aa1958;
     text-decoration: wavy;
     font-style: oblique;
-    font-size: 20px;
+    font-size: 24px;
 
+}
+
+.home-btn:hover{
+    background-color: #aa1958;
+    border: 2px solid #ee559f;
+    cursor: pointer;
 }
 .btn{
     background-color: #ee559f;
@@ -111,13 +118,14 @@ ul li{
     border-radius: 4px;
     border: 2px solid #aa1958;
     text-decoration: wavy;
-    font-size: 20px;
+    font-size: 24px;
     
 }
 
 .btn:hover{
     background-color: #aa1958;
     border: 2px solid #ee559f;
+    cursor: pointer;
 }
 
 
@@ -142,12 +150,12 @@ a:hover{
 
 .first{
     font-style: italic;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .gitlink{
     font-weight: bold;
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 26px;
     color: aqua;
 }
